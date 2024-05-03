@@ -4,3 +4,34 @@
 	box-sizing: border-box;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: #E3F2FD;
+}
+.wrapper {
+	width: 40rem;
+	height: 32rem;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	border-radius: 5px;
+	background: #293447;
+}
+.game-details{
+	color: #BBC6DC;
+	font-size: 1.2rem;
+	font-weight: 500;
+	padding: 20px 27px;
+	display: flex;
+	justify-content: space-between;
+}
+.play-board{
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+	background: #212837;
+}
